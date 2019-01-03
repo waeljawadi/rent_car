@@ -1,0 +1,26 @@
+img.logo {
+    width: 72%;
+}
+
+.logo1 {
+    width: 21%;
+    
+}
+ul.navbar-nav.mr-auto li {
+    font-size: 20px;
+    padding-right: 17px;
+}
+center {
+    margin-top: 35px;
+}
+div#container {
+    margin-top: 54px;
+}
+div#ligne_ {
+    margin-bottom: 20px;
+}
+p.p1 {
+    font-weight: bold;
+    font-size: 15px;
+    color: #e44e06;
+}
