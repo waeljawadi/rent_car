@@ -3,13 +3,17 @@ body {
   font-size: 14px;
 }
 
+.three_pictures {
+  text-align: center;
+}
+
 .three_pictures i {
   font-size: 4em;
   color: #007bff;
-}
-
-.three_pictures {
-  text-align: center;
+  border: 2px solid #007bff;
+  border-radius: 50%;
+  padding: 22px;
+  margin-top: 20px;
 }
 
 .three_pictures i:hover {
@@ -18,13 +22,6 @@ body {
   -webkit-transition: 1000ms;
   transition: 1000ms;
   cursor: pointer;
-}
-
-.three_pictures i {
-  border: 2px solid #007bff;
-  border-radius: 50%;
-  padding: 22px;
-  margin-top: 20px;
 }
 
 .colorer {
@@ -96,9 +93,6 @@ body {
   background: url("./images/parrallax.jpg");
   min-height: 400px;
   background-attachment: fixed;
-}
-
-.parralax {
   DISPLAY: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -112,9 +106,6 @@ body {
 
 .noover {
   overflow: hidden;
-}
-
-.noover {
   border: 3px solid #80808012;
   margin-top: 20px;
   padding: 0px !important;
@@ -137,28 +128,28 @@ body {
   color: black;
 }
 
-.p3 a,
-.p3 a:hover {
+.p3 a {
   text-decoration: none;
 }
 
-.noover span {
-  position: absolute;
-  left: 3px;
-}
-
-.noover span {
-  background: #007bff;
-  padding: 3px 11px;
-  color: white;
-  font-weight: bold;
-  text-transform: capitalize;
+.p3 a:hover {
+  text-decoration: none;
 }
 
 .noover {
   margin-right: 1% !important;
   margin-bottom: 1% !important;
   margin-top: 1% !important;
+}
+
+.noover span {
+  position: absolute;
+  left: 3px;
+  background: #007bff;
+  padding: 3px 11px;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
 .noover span.nod {
