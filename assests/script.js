@@ -1,4 +1,3 @@
-var ok = ""
 var alter_ = Array.from(document.querySelectorAll(".p3")).map(i => i.onclick = () => 
 {localStorage.clear();
 var items = [];
@@ -7,5 +6,4 @@ var items = [];
  items.push(document.querySelector('#'+i.closest('.noover').attributes.id.value + ' .p2').innerHTML);
  localStorage.setItem("items", items);
 });
-tab_argument = localStorage.getItem("items").split(',');
-console.log(tab_argument)
+
