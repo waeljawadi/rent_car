@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./assests/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assests/tarifs.css" />
     
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
@@ -14,18 +14,42 @@
         crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="assets/style.css" />
     
-    <link rel="stylesheet" href="./assests/owl/owl.carousel.min.css">
-    <link rel="stylesheet" href="./assests/owl/owl.theme.default.min.css">
-    <script src="./assests/owl/owl.carousel.js"></script>
-
 
     <meta charset="utf-8" />
 </head>
-<body>
-   
+<body>  
 
+<div class="container contact-form">
+        <div class="contact-image">
+            <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+        </div>
+        <form method="post">
+            <h3>Continuez votre reservation</h3>
+           <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" name="modele" id="modele" class="form-control" placeholder="" value="" disabled />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="prix_jour" id="prix_jour"  class="form-control" placeholder="" value="" disabled />
+                    </div>
+                    <div class="form-group">
+                            <input type="date" name="date" class="form-control" placeholder="Date reservation" value="" data-toggle="tooltip" data-placement="top" title="Tooltip on top" />
+                        </div>
+                   
+                    <div class="form-group">
+                        <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                    </div>
+                </div>
+            </div>
+        </form>
+</div>
 </body>
 </html>
 <script src="./assests/tarifs.js"></script>
