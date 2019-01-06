@@ -194,8 +194,22 @@ font-weight: 700;
 
 
 
+.owl-nav {
+    margin: 0 auto;
+    width: 35px;
+}
+button.owl-prev span {
+    font-size: 2em;
+    font-weight: bold;
+    color: #c10000;
+    padding-right: 12px;
+}
 
-
+button.owl-next span {
+    font-size: 2em;
+    font-weight: bold;
+    color: #c10000;
+}
 
 
 
