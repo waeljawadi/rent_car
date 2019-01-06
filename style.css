@@ -15,6 +15,8 @@ center {
 }
 div#container {
     margin-top: 54px;
+    width: 100%;
+
 }
 div#ligne_ {
     margin-bottom: 20px;
@@ -22,5 +24,34 @@ div#ligne_ {
 p.p1 {
     font-weight: bold;
     font-size: 15px;
-    color: #e44e06;
+    color:#e44e06;
+}
+.row.justify-content-center {
+    width: 100%;
+}
+img.img1 {
+    height: 35%;
+    width: 100%;
+}
+
+.res{
+    background-image: url("https://www.rentiles.fr/template/pepsiles/img/background-blog.jpg");
+}
+.imgres{
+    width: 70%;
+}
+.part1 {
+    border: 1px solid white;
+    width: 54%;
+    margin-left: 25%;
+    padding: 4%;
+}
+.part2 {
+    margin-top: 11%;
+}
+
+label.label1 {
+    color: white;
+    font-weight: bold;
+    font-family: initial;
 }
