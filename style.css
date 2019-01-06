@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css?family=Charm:400,700");
+body {
+  font-size: 14px;
+}
+
+.three_pictures i {
+  font-size: 4em;
+  color: #007bff;
+}
+
+.three_pictures {
+  text-align: center;
+}
+
+.three_pictures i:hover {
+  -webkit-transform: rotate(360deg) scale(1.04);
+          transform: rotate(360deg) scale(1.04);
+  -webkit-transition: 1000ms;
+  transition: 1000ms;
+  cursor: pointer;
+}
+
+.three_pictures i {
+  border: 2px solid #007bff;
+  border-radius: 50%;
+  padding: 22px;
+  margin-top: 20px;
+}
+
+.colorer {
+  color: black;
+  padding-top: 0.5em;
+}
+
+.owl-carousel .owl-item img {
+  width: unset !important;
+}
+
+.row.les_marques {
+  background: lightgray;
+}
+
+.block1 {
+  min-height: 400px;
+  background: red;
+}
+
+.lesrow_spec {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.first .col-lg-6.block1 {
+  background: lightblue;
+}
+
+.first .col-lg-6.block2 {
+  background: url("./images/car.png");
+}
+
+.second .col-lg-6.block1 {
+  background: lightblue;
+}
+
+.second .col-lg-6.block2 {
+  background: url("./images/car2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.center {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.block1 h1 {
+  font-family: 'Charm', cursive;
+  font-weight: 700;
+}
+
+.block1 h2 {
+  font-size: 1.7em;
+  color: #c10000;
+}
+
+.padds10 {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.parralax {
+  background: url("./images/parrallax.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+}
+
+.parralax {
+  DISPLAY: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-shadow: 1px 3px 1px black;
+}
+
+.noover {
+  overflow: hidden;
+}
+
+.noover {
+  border: 3px solid #80808012;
+  margin-top: 20px;
+  padding: 0px !important;
+  margin: 0px !important;
+  text-align: center;
+}
+
+.lesp {
+  margin: 0px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  background: #f1f1f0;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.lesp:hover {
+  background: #8080803b;
+  color: black;
+}
+
+.p3 a,
+.p3 a:hover {
+  text-decoration: none;
+}
+
+.noover span {
+  position: absolute;
+  left: 3px;
+}
+
+.noover span {
+  background: #007bff;
+  padding: 3px 11px;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.noover {
+  margin-right: 1% !important;
+  margin-bottom: 1% !important;
+  margin-top: 1% !important;
+}
+
+.noover span.nod {
+  background: #ff0000;
+  padding: 3px 11px;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.owl-nav {
+  margin: 0 auto;
+  width: 35px;
+}
+
+button.owl-prev span {
+  font-size: 2em;
+  font-weight: bold;
+  color: #c10000;
+  padding-right: 12px;
+}
+
+button.owl-next span {
+  font-size: 2em;
+  font-weight: bold;
+  color: #c10000;
+}
+
+.a {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
