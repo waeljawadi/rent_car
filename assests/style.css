@@ -307,7 +307,10 @@ span.num {
   right: 0;
 }
 
-.left.vertical,
+.left.vertical {
+  top: -20px;
+}
+
 .left.horizontal.thick {
   top: -20px;
 }
@@ -324,7 +327,10 @@ span.num {
   left: 0;
 }
 
-.right.vertical,
+.right.vertical {
+  bottom: -20px;
+}
+
 .right.horizontal.thick {
   bottom: -20px;
 }
@@ -428,12 +434,14 @@ label.label1 {
   font-family: initial;
 }
 
-.lp11, .lp1 {
+.lp11 {
   text-align: center;
   font-weight: bold;
 }
 
 .lp1 {
+  text-align: center;
+  font-weight: bold;
   color: #0072bc;
 }
 
@@ -539,7 +547,10 @@ span.num {
   right: 0;
 }
 
-.left.vertical,
+.left.vertical {
+  top: -20px;
+}
+
 .left.horizontal.thick {
   top: -20px;
 }
@@ -556,7 +567,10 @@ span.num {
   left: 0;
 }
 
-.right.vertical,
+.right.vertical {
+  bottom: -20px;
+}
+
 .right.horizontal.thick {
   bottom: -20px;
 }
@@ -592,5 +606,14 @@ span.num {
           box-shadow: none;
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+.col-md-12.py-5 {
+  text-align: center;
+}
+
+.page-footer.font-small.cyan.darken-3 {
+  text-align: center;
+  background: #007bff80;
 }
 /*# sourceMappingURL=style.css.map */
