@@ -628,4 +628,11 @@ span.num {
   -webkit-transition: 1000ms;
   transition: 1000ms;
 }
+
+.sociaux {
+  position: fixed;
+  z-index: 200;
+  top: 30%;
+  background: red;
+}
 /*# sourceMappingURL=style.css.map */
