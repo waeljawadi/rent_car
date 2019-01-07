@@ -3,7 +3,7 @@ var alter_ = Array.from(document.querySelectorAll(".p3")).map(i => i.onclick = (
 var items = [];
  items.push(document.querySelector('#'+i.closest('.noover').attributes.id.value + ' img').src);
  items.push(document.querySelector('#'+i.closest('.noover').attributes.id.value + ' .p1').innerHTML);
- items.push(document.querySelector('#'+i.closest('.noover').attributes.id.value + ' .p2').innerHTML);
+ items.push(document.querySelector('#'+i.closest('.noover').attributes.id.value + ' .p2 em').innerHTML);
  localStorage.setItem("items", items);
 }
 );
