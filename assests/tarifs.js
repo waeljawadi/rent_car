@@ -3,19 +3,36 @@ console.log(tab_argument)
 document.querySelector('#modele').value = tab_argument[1];
 document.querySelector('#prix_jour').value = tab_argument[2];
 
-$('#dt2').datepicker({
-    dateFormat: "dd-M-yy" 
-});
-$.datepicker.setDefaults( $.datepicker.regional[ "fr" ] );
-$("#date_d").datepicker({
-    dateFormat: "dd-M-yy", 
-    minDate:  0,
-    onSelect: function(date){            
-        var date1 = $('#date_d').datepicker('getDate');           
-        var date = new Date( Date.parse( date1 ) ); 
-        date.setDate( date.getDate() + 1 );        
-        var newDate = date.toDateString(); 
-        newDate = new Date( Date.parse( newDate ) );                      
-        $('#date_r').datepicker("option","minDate",newDate);            
-    }
-});
+$(document).ready(function(e){
+$(function() {
+
+    $('#date_d').datepicker({
+        format: "dd-M-yy",
+        todayHighlight:'TRUE',
+        autoclose: true,
+        minDate: 0,
+        maxDate: '+1Y+6M'
+    }).on('changeDate', function (ev) {
+            $('#date_r').datepicker('setStartDate', $("#date_d").val());
+    });
+    
+    
+     
+    
+    $('#date_r').datepicker({
+        format: "dd-M-yy",
+        todayHighlight:'TRUE',
+        autoclose: true,
+        minDate: '0',
+        maxDate: '+1Y+6M'
+    }).on('changeDate', function (ev) {
+            var start = $("#date_d").val();
+            var startD = new Date(start);
+            var end = $("#date_r").val();
+            var endD = new Date(end);
+            var diff = parseInt((endD.getTime()-startD.getTime())/(24*3600*1000));
+            console.log(diff);
+    });
+    
+    });
+})
