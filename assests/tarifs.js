@@ -37,7 +37,7 @@ $(function() {
         {
             diff = 1;
         }
-        $(".calcul").text('Voiture reservez pour '+diff+' jour à '+ diff*Number(tab_argument[2]) + ' dinars');
+        $(".calcul").text('Voiture reservée pour '+diff+' jours à '+ diff*Number(tab_argument[2]) + ' dinars');
     }
     
     ,1000)});
