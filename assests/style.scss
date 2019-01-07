@@ -213,3 +213,337 @@ span.num {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+.lp1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #dedbdb;
+}
+
+p.lp11 {
+    color:#404040;
+}
+p.titree {
+    font-family: serif;
+    font-size: 35px;
+    color: black;
+}
+.titre {
+    margin-top: 20px;
+}
+p.titree {
+    text-align: center;
+    border: 1px solid green;
+    
+    width: 320px;
+    margin: 0 auto;
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+    fill: white;
+}
+.lab1{
+color:white;
+}
+span.num {
+    text-align: center;
+    color: white;
+    display: block;
+    font-size: 13px
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2rem;
+  }
+  .decorative-title {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+  }
+  .decorative-title span {
+    display: block;
+    padding: 2rem 0.5rem 1rem;
+    background-color: #0072bc;
+    color: #f2f2f2;
+    text-align: center;
+    font: 2rem sans-serif;
+    letter-spacing: 0.3rem;
+  }
+  @media (min-width: 576px) {
+    .decorative-title {
+      width: 100%;
+    }
+    .decorative-title span {
+      font-size: 3rem;
+    }
+  }
+  .decorative-bar {
+    position: absolute;
+    background-color: red;
+  }
+  .left.thick {
+    left: -20px;
+  }
+  .left.thin {
+    right: 0;
+  }
+  .left.vertical,
+  .left.horizontal.thick {
+    top: -20px;
+  }
+  .left.horizontal.thin {
+    top: -16px;
+  }
+  .right.thick {
+    right: -20px;
+  }
+  .right.thin {
+    left: 0;
+  }
+  .right.vertical,
+  .right.horizontal.thick {
+    bottom: -20px;
+  }
+  .right.horizontal.thin {
+    bottom: -16px;
+  }
+  .vertical {
+    width: 8px;
+    height: 80px;
+  }
+  .horizontal.thick {
+    width: 30%;
+    height: 8px;
+  }
+  .horizontal.thin {
+    width: 80%;
+    height: 2px;
+  }
+  
+  .card{
+    box-shadow:0 20px 50px 0 rgba(0,0,0,.13);
+    transition: 1s;
+  }
+
+  .card:hover{
+    box-shadow: none;
+    transition: 1s;
+  }
+
+
+
+
+
+
+
+
+  img.logo {
+    width: 72%;
+}
+
+.logo1 {
+    width: 21%;
+    
+}
+ul.navbar-nav.mr-auto li {
+    font-size: 20px;
+    padding-right: 17px;
+}
+center {
+    margin-top: 35px;
+}
+div#container {
+    margin-top: 54px;
+    width: 100%;
+
+}
+div#ligne_ {
+    margin-bottom: 20px;
+}
+p.p1 {
+    font-weight: bold;
+    font-size: 15px;
+    color:#e44e06;
+}
+.row.justify-content-center {
+    width: 100%;
+}
+img.img1 {
+    height: 35%;
+    width: 100%;
+}
+
+.res{
+    background-image: url("https://www.rentiles.fr/template/pepsiles/img/background-blog.jpg");
+}
+.imgres{
+    width: 70%;
+}
+.part1 {
+    border: 1px solid white;
+    width: 54%;
+    margin-left: 25%;
+    padding: 4%;
+}
+.part2 {
+    margin-top: 11%;
+}
+
+label.label1 {
+    color: white;
+    font-weight: bold;
+    font-family: initial;
+}
+.lp11 , .lp1{
+    text-align: center;
+    font-weight: bold;
+}
+.lp1{
+    color: #0072bc;
+}
+
+
+
+.line2 , .line3{
+   
+        margin-top: 50px;
+    
+}
+.lp1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #dedbdb;
+}
+
+p.lp11 {
+    color:#404040;
+}
+p.titree {
+    font-family: serif;
+    font-size: 35px;
+    color: black;
+}
+.titre {
+    margin-top: 20px;
+}
+p.titree {
+    text-align: center;
+    border: 1px solid green;
+    
+    width: 320px;
+    margin: 0 auto;
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+    fill: white;
+}
+.lab1{
+color:white;
+}
+span.num {
+    text-align: center;
+    color: white;
+    display: block;
+    font-size: 13px
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2rem;
+  }
+  .decorative-title {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+  }
+  .decorative-title span {
+    display: block;
+    padding: 2rem 0.5rem 1rem;
+    background-color: #0072bc;
+    color: #f2f2f2;
+    text-align: center;
+    font: 2rem sans-serif;
+    letter-spacing: 0.3rem;
+  }
+  @media (min-width: 576px) {
+    .decorative-title {
+      width: 100%;
+    }
+    .decorative-title span {
+      font-size: 3rem;
+    }
+  }
+  .decorative-bar {
+    position: absolute;
+    background-color: red;
+  }
+  .left.thick {
+    left: -20px;
+  }
+  .left.thin {
+    right: 0;
+  }
+  .left.vertical,
+  .left.horizontal.thick {
+    top: -20px;
+  }
+  .left.horizontal.thin {
+    top: -16px;
+  }
+  .right.thick {
+    right: -20px;
+  }
+  .right.thin {
+    left: 0;
+  }
+  .right.vertical,
+  .right.horizontal.thick {
+    bottom: -20px;
+  }
+  .right.horizontal.thin {
+    bottom: -16px;
+  }
+  .vertical {
+    width: 8px;
+    height: 80px;
+  }
+  .horizontal.thick {
+    width: 30%;
+    height: 8px;
+  }
+  .horizontal.thin {
+    width: 80%;
+    height: 2px;
+  }
+  
+  .card{
+    box-shadow:0 20px 50px 0 rgba(0,0,0,.13);
+    transition: 1s;
+  }
+
+  .card:hover{
+    box-shadow: none;
+    transition: 1s;
+  }
