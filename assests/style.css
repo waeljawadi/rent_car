@@ -178,3 +178,6 @@ button.owl-next span {
   color: #c10000;
 }
 /*# sourceMappingURL=style.css.map */
+.indisponible{
+  background-color: red;
+}
