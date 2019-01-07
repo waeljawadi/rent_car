@@ -15,10 +15,6 @@ $(function() {
     }).on('changeDate', function (ev) {
             $('#date_r').datepicker('setStartDate', $("#date_d").val());
     });
-    
-    
-     
-    
     $('#date_r').datepicker({
         format: "dd-M-yy",
         todayHighlight:'TRUE',
