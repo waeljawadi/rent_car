@@ -616,4 +616,9 @@ span.num {
   text-align: center;
   background: #007bff80;
 }
+
+.footer-copyright.text-center.py-3 * {
+  display: inline;
+  color: #c20600;
+}
 /*# sourceMappingURL=style.css.map */
