@@ -28,6 +28,18 @@
             <h3>Continuez votre reservation</h3>
            <div class="row">
                 <div class="col-md-6">
+
+
+                        <div class="form-group">
+        <input 
+        type="text"
+        name="nom_prenom"
+        id="nom_prenom"
+        class="form-control"
+        placeholder="Nom et prénom"
+        value=""
+        />
+                            </div>
                     <div class="form-group">
                         <input type="text" name="modele" id="modele" class="form-control" placeholder="" value="" disabled />
                     </div>
@@ -35,7 +47,7 @@
                         <input type="text" name="prix_jour" id="prix_jour"  class="form-control" placeholder="" value="" disabled />
                     </div>
                     <div class="form-group">
-                            <input type="date" name="date" class="form-control" placeholder="Date reservation" value="" data-toggle="tooltip" data-placement="top" title="Tooltip on top" />
+                            <input type="date" name="date" class="form-control" placeholder="Date reservation" value="" data-toggle="tooltip" data-placement="top" title="Date de reservation" />
                         </div>
                    
                     <div class="form-group">
@@ -46,6 +58,9 @@
                     <div class="form-group">
                         <textarea name="txtMsg" class="form-control" placeholder="Votre message" style="width: 100%; height: 150px;"></textarea>
                     </div>
+                    <div class="form-group">
+                            <input type="date" name="date_r" class="form-control" placeholder="Date reservation" value="" data-toggle="tooltip" data-placement="top" title="Date de retour " />
+                        </div>
                 </div>
             </div>
         </form>
