@@ -7,4 +7,3 @@ var items = [];
  localStorage.setItem("items", items);
 }
 );
-
