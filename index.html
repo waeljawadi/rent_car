@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./assests/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="./assests/owl/owl.theme.default.min.css">
     <script src="./assests/owl/owl.carousel.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
     <meta charset="utf-8" />
@@ -154,7 +155,7 @@
 
     
     <div class="container">
-        <div class="row three_pictures">
+        <div class="row three_pictures" data-aos="fade-up" data-aos-duration="2000">
             <div class="col-xl-4">
                 <i class="fas fa-search"></i>
                 <h2 class="colorer">Rechercher</h2>
@@ -181,7 +182,7 @@
 
     <div class="container les_voiture">
 
-            <div class="row owl-carousel">
+            <div class="row owl-carousel" data-aos="fade-left" data-aos-duration="2000">
             <div class="noover" id="v_1">
                <p>
                <span class="dispo">Disponible</span>    
@@ -491,6 +492,12 @@
 
 
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+ AOS.init({
+   once: true
+})
+</script>
 </html>
 
 
