@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8" />
+            <title>formulaire</title>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="style.css" />
+    </head>
+<body>
+
+        <div class="container">
+          <h1>FICHE CONTACT</h1>
+                <form action="action_page.php" id="myForm" onsubmit="return verif()">
+               
+                  <label for="fname">Nom</label> <span style="color:red">*</span>
+                  <input type="text"  name="firstname" id="fname" placeholder="Votre nom..">
+              
+                  <label for="lname">Prenom</label><span style="color:red">*</span>
+                  <input type="text" id="lname" name="lastname" placeholder="Votre prenom..">
+                  
+                  <label for="Tele">N°Telephone</label><span style="color:red">*</span>
+                  <input type="text" id="tele" name="tele" placeholder="votre numéro..">
+
+                  <label for="email">E-mail adresse</label>
+                  <input type="email" id="email" name="email" placeholder="Votre E-mail..">
+                  
+                  <label for="adresse">Adresse</label>
+                  <input type="text" id="adresse" name="adresse" placeholder="Votre adresse..">
+                 
+                  <label for="country">Pays</label>
+                  <select id="country" name="country">
+                    <option value="tunisia">Tunisie</option>
+                    <option value="algeria">Algerie</option>
+                    <option value="marocco">Maroc</option>
+                  </select>
+                  
+
+                  
+                  <label for="tsubject">Sujet</label><span style="color:red">*</span>
+                  <input type="text" id="tsubject" name="tsubject" placeholder="svp mentionner l'objet de votre message..">
+                                
+                  <label for="subject">Message</label>
+                  <textarea id="subjectc" name="subject" placeholder="Votre message.." style="height:150px"></textarea>
+              
+                  <input type="submit" value="Envoyer" id="submit" >
+                  <input type="reset" value="Annuller" id="reset">
+                  <p class="note">*champs obligatoire</p>
+                </form>
+                <div id=alerte></div>
+              </div>
+
+          <footer class="container-fluid">
+            
+                <div class="row myfooter">
+                <div class="col-lg-3 col-md-6 col-sm-12 social">
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/" class="fa fa-twitter"></a>        
+                    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>        
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 corpfooter">
+                        <p><a href="#">Accueil</a>  <a href="#">Qui somme nous</a>  <a href="#">Catalogue</a>  <a href="#">Tarif</a> <a href="#"> Contact</a></p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 logof">
+                    <img src="https://pre00.deviantart.net/2859/th/pre/f/2017/187/b/a/untitled_1_by_mohamedelhafidi-dbfd961.png" alt="logo"  width="300px" height="100px";>
+                </div>
+            </div>
+          </footer>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
+            <script type="text/javascript" src="code.js"></script>
+</body>
+
+</html>
