@@ -613,6 +613,7 @@ background:#007bff80;
   position: fixed;
   z-index: 200;
   top: 30%;
+<<<<<<< HEAD
   
 }
 
@@ -637,3 +638,24 @@ i.fab.fa-instagram.fa-lg.white-text.mr-md-5.mr-3.fa-2x:hover {
   font-size: 50px;
 }
 
+=======
+  background: red;
+}
+
+
+.scrollTop {
+  position: fixed;
+  right: 3%;
+  bottom: 10px;
+  background-color: #BE3F48;
+  padding: 20px;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+  z-index: 20200202;
+}
+
+.scrollTop a {
+  font-size: 18px;
+  color: #fff;
+}
+>>>>>>> 2761b28b4d17579d09d03467d7a98cf8a5b9f763
