@@ -599,3 +599,12 @@ background:#007bff80;
 	display: inline;
 	color: #c20600;
 }
+
+
+.reseau i {
+  &:hover
+  {
+  transform: rotate(360deg);
+  transition: 1000ms;
+}
+}

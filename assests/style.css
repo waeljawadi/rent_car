@@ -621,4 +621,11 @@ span.num {
   display: inline;
   color: #c20600;
 }
+
+.reseau i:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: 1000ms;
+  transition: 1000ms;
+}
 /*# sourceMappingURL=style.css.map */
