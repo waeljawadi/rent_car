@@ -635,4 +635,21 @@ span.num {
   top: 30%;
   background: red;
 }
+
+.scrollTop {
+  position: fixed;
+  right: 3%;
+  bottom: 10px;
+  background-color: #BE3F48;
+  padding: 20px;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+  z-index: 20200202;
+}
+
+.scrollTop a {
+  font-size: 18px;
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
