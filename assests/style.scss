@@ -654,3 +654,12 @@ background:#007bff80;
 .container.contact-form {
   padding: 0px;
 }
+
+@media  (max-width: 576px) {
+  span.num {
+    text-align: left !important;
+    color: white;
+    display: block;
+    font-size: 13px;
+}
+}
