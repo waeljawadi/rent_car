@@ -683,5 +683,36 @@ span.num {
     display: block;
     font-size: 13px;
   }
+  img.logo {
+    margin-left: 162%;
+    width: 174px;
+  }
+}
+
+@media (max-width: 768px) {
+  span.num {
+    text-align: left !important;
+    color: white;
+    display: block;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 992px) {
+  span.num {
+    text-align: left !important;
+    color: white;
+    display: block;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1200px) {
+  span.num {
+    text-align: left !important;
+    color: white;
+    display: block;
+    font-size: 13px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
