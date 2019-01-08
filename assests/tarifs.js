@@ -117,7 +117,7 @@ $('#sbmt').removeAttr('disabled');
 
 $('#sbmt').click(function(e){
 
-    alert('Voiture réservée');
+    alert('M.'+$('#nom_prenom').val() +',votre voiture est réservée');
 })
 
 
