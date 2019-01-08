@@ -9,6 +9,7 @@
                 <link rel="stylesheet" type="text/css" media="screen" href="./assests/style.css" />
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
                 
                 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
                     crossorigin="anonymous"></script>
@@ -125,7 +126,7 @@
                           <br><br>
                           <div class="container">
 
-                          <div class="row justify-content-around line1">
+                          <div class="row justify-content-around line1" data-aos="fade-up" data-aos-duration="1500">
 
 
                                 <div class="col-lg-3 col-md-4 col-sm-12">
@@ -180,7 +181,7 @@
 
                          </div>
 
-                         <div class="row justify-content-around line2">
+                         <div class="row justify-content-around line2" data-aos="fade-up" data-aos-duration="1500">
 
 
                                 <div class="col-lg-3 col-md-4 col-sm-12">
@@ -235,7 +236,7 @@
 
                          </div>
 
-                         <div class="row justify-content-around line3">
+                         <div class="row justify-content-around line3" data-aos="fade-up" data-aos-duration="1500">
 
 
                                 <div class="col-lg-3 col-md-4 col-sm-12">
@@ -441,8 +442,12 @@
 
 
 
-
-
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+            AOS.init({
+              once: true
+           })
+           </script>
 
 
 
