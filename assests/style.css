@@ -671,4 +671,8 @@ span.num {
   font-size: 18px;
   color: #fff;
 }
+
+.container.contact-form {
+  padding: 0px;
+}
 /*# sourceMappingURL=style.css.map */
