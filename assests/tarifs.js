@@ -43,6 +43,88 @@ $(function() {
     ,1000)});
     })
 
+// prevent submit from redirection to other page 
+ $("form").submit(function(e){
+    e.preventDefault();
+});
+
+
+// start function when page is loaded
+$(document).ready(function(e){
+    
+
+//  init vars
+
+    var name = 0;
+    var date_d = 0;
+    var date_r = 0;
+    var message = 0;
+
+
+    // fn js pour lancer la fonction chaque n temps
+window.setInterval(function(e){
+
+
+
+
+
+if ($('#nom_prenom').val()  !="") 
+{name = 1}
+else
+{name = 0}
+
+if ($('#date_d').val()  !="")
+{date_d = 1}
+else
+{date_d = 0}
+if ($('#date_r').val()  !="")
+{date_r = 1}
+else 
+{dae_rt = 0}
+
+if ($('#area').val() !="" )
+{message = 1}
+else 
+{messaeg = 0}
+
+var somme = Number(name)+Number(date_d)+Number(date_r)+Number(message);
+
+// ajouter le disable si il ya des champs non rempli
+if (somme != 4)
+{
+$('#sbmt').attr('disabled','disabled');
+}
+
+
+
+
+else
+
+{
+$('#sbmt').removeAttr('disabled');
+}
+
+
+
+
+
+
+
+
+
+},1000);
+
+
+$('#sbmt').click(function(e){
+
+    alert('Voiture réservée');
+})
+
+
+
+
+
+});
 
 
 
